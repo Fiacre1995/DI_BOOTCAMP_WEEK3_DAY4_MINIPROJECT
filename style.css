@@ -1,0 +1,42 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightgrey ;
+}
+
+
+#latteral{
+
+    display: grid;
+    grid-gap :4px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 100vh;
+    width: 20%;
+    float: left;
+    background-color: lightgray;
+    padding: 5px;
+
+
+}
+
+#grilleVierge{
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    height: 100vh;
+    gap: 1px
+    
+
+    
+
+}
+#btn1{
+    font-size: 31px;
+    border: 1px black solid;
+    grid-column: 1/4;
+    border-radius: 14px;
+    background-color: white;
+    color: black;
+}
